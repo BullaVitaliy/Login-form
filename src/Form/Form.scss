@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+
+//-----------reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+// font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+//---------------------
+
+
+body,div, .family_inter {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+  }
+
+.focus{
+    border: 1px solid #3183FF;
+}
+// .error{
+//     border: 1px solid red;
+// }
+
+
+.wrapper_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    
+    .container_form{
+        padding: 3.2% 2.5%;
+        border: 2px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 16px;
+
+        display: flex;
+        flex-direction: column;
+                            width: 29%;
+
+        .welcome_text{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #98989E;
+        }
+
+        .title_text{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            color: #212429;
+            margin-bottom: 5vh;
+        }
+
+        .group_field{
+            margin-bottom: 3.5vh;
+
+            .field{
+                height: 6vh;
+                width: 88%;
+                border-radius: 24px;
+                border: 1px solid #D8D8D8;
+            }
+
+            .user, .password {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                color: #212429;
+                padding-bottom: 1.5vh;
+            }
+        
+            .input_forms{
+                padding-left: 12%;
+
+            }
+
+            .icons {
+                position: absolute;
+                left: 39.3%;
+            }
+            .emailsvg{
+                top: 41.6vh; 
+            }
+            .locksvg{
+                top: 55.3vh; 
+            }
+        }
+
+        .button_form{
+            margin-top: 2.5vh;
+            margin-bottom: 2vh;
+            width: 98.7%;
+            height: 7.3vh;
+            border-radius: 24px;
+            border: none;
+            background: #3183FF;
+            color: white;
+
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .button_form:active{
+            background-color: #1665db;
+        }
+
+        .buttom_text{
+            display: flex;
+            flex-direction: row;
+
+            .first_text{
+                color: #98989E;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            .second_text{
+                color: #212429;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                margin-left: 2.5%;
+            }
+        }
+        
+
+    }
+}
+
